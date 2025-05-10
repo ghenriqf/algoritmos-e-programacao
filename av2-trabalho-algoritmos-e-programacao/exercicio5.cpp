@@ -30,5 +30,8 @@ int main(){
             }
         }
     }
+    
     cout << "A soma dos numeros primos do intervalo [" << a << "," << b << "]" << " e de " << soma;
+    
+    return 0;
 }
