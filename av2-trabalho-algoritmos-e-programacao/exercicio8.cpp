@@ -5,11 +5,13 @@ int main(){
 
     cout<< "            =-=-=-=-=-=-JOGO ADIVINHACAO COM COPOS-=-=-=-=-=-=" << endl;
     cout << "Dois jogadores se enfrentam um sera o Embaralhador e o outro, o Adivinhador." << endl;
+    cout << "Nesse jogo teremos 3 copos, cada um nomeado em sequencia, A B e C" << endl;
+
     
-    cout << "- Embaralhador: Indique a posicao inicial da moeda" << endl;
+    cout << "- Embaralhador: Indique qual copo a moeda vai estar" << endl;
     cout << "COPOS:         U     U      U" << endl;
     cout << "______________________________" << endl;
-    cout << "POSICAO:       a     b      c" << endl;
+    cout << "NOME:          A     B      C" << endl;
 
     cout << "1)A" << endl << "2)B" << endl << "3)C" << endl << "  -";
 
@@ -17,7 +19,7 @@ int main(){
     cin >> posicaoMoeda;
 
     if(posicaoMoeda != 1 and posicaoMoeda != 2 and posicaoMoeda != 3){
-        cout << "Escolha uma posicao valida!";
+        cout << "Escolha um copo valido!";
         return 1;
     }
 
