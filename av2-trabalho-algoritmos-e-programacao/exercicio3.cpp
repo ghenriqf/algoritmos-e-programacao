@@ -65,9 +65,11 @@ int main(){
             cout << "Foram necessario " << qtd << " moedas de 5 centavos" << endl;
         }
         else if(n>=0.01){
-            qtd = int(n / 0.01);
+            qtd = int(n * 100 + 0.01);
             n -= qtd *0.01;
             cout << "Foram necessario " << qtd << " moedas de 1 centavos" << endl;
+        }else{
+            return 1;
         }
     }
     return 0;
