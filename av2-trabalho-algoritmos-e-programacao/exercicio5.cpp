@@ -21,10 +21,8 @@ int main(){
             for(int i = 2; i<= min-1; i++){
                 if(min%i == 0){
                     i = min-1;
-                }else{
-                    if(i == min-1){
-                        soma+=min;
-                    }
+                }else if(i == min-1){
+                    soma+=min;
                 }
         
             }
