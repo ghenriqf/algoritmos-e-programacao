@@ -11,7 +11,7 @@ int main(){
         }
     }
 
-    cout << "O menor numer par divisel por 7 cujo o cubo e maior que 4000: " << n;
+    cout << "O menor numero par divisivel por 7 cujo o cubo e maior que 4000: " << n;
 
     return 0;
 
